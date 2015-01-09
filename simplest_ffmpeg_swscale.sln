@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplest_ffmpeg_swscale", "simplest_ffmpeg_swscale\simplest_ffmpeg_swscale.vcxproj", "{F5F9636C-70A0-4828-96C8-56AFD647A13C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simplest_pic_gen", "simplest_pic_gen\simplest_pic_gen.vcxproj", "{F71E0F73-6030-45AC-B026-E7491EFC64E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5F9636C-70A0-4828-96C8-56AFD647A13C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5F9636C-70A0-4828-96C8-56AFD647A13C}.Debug|Win32.Build.0 = Debug|Win32
+		{F5F9636C-70A0-4828-96C8-56AFD647A13C}.Release|Win32.ActiveCfg = Release|Win32
+		{F5F9636C-70A0-4828-96C8-56AFD647A13C}.Release|Win32.Build.0 = Release|Win32
+		{F71E0F73-6030-45AC-B026-E7491EFC64E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F71E0F73-6030-45AC-B026-E7491EFC64E5}.Debug|Win32.Build.0 = Debug|Win32
+		{F71E0F73-6030-45AC-B026-E7491EFC64E5}.Release|Win32.ActiveCfg = Release|Win32
+		{F71E0F73-6030-45AC-B026-E7491EFC64E5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

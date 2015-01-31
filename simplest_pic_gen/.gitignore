@@ -1,5 +1,8 @@
 Debug/
 Release/
 
-*.yub
+*.yuv
 *.rgb
+
+*.exe
+*.obj

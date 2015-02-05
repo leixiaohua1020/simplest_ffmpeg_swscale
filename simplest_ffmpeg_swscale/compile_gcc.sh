@@ -9,4 +9,5 @@
 #http://blog.csdn.net/leixiaohua1020
 #
 #compile
-gcc simplest_ffmpeg_swscale.cpp -g -o simplest_ffmpeg_swscale.out -lavformat -lavcodec -lavutil
+gcc simplest_ffmpeg_swscale.cpp -g -o simplest_ffmpeg_swscale.out  -I /usr/local/include -L /usr/local/lib \
+-lswscale -lavutil

@@ -13,3 +13,4 @@
 ::@set LIB=lib;%LIB%;
 ::compile and link
 cl simplest_pic_gen.c
+exit

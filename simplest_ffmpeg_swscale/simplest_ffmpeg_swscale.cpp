@@ -9,21 +9,41 @@
  * http://blog.csdn.net/leixiaohua1020
  *
  * 本程序使用libswscale对像素数据进行缩放转换等处理。
- * 是最简单的libswscale的教程。
+ * 它中实现了YUV420P格式转换为RGB24格式，
+ * 同时将分辨率从480x272拉伸为1280x720
+ * 它是最简单的libswscale的教程。
  *
  * This software uses libswscale to scale / convert pixels.
- * It the simplest tutorial about libswscale.
+ * It convert YUV420P format to RGB24 format,
+ * and changes resolution from 480x272 to 1280x720.
+ * It's the simplest tutorial about libswscale.
  */
 
 #include <stdio.h>
 
+#define __STDC_CONSTANT_MACROS
 
+#ifdef _WIN32
+//Windows
 extern "C"
 {
 #include "libswscale/swscale.h"
 #include "libavutil/opt.h"
 #include "libavutil/imgutils.h"
 };
+#else
+//Linux...
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+#include <libswscale/swscale.h>
+#include <libavutil/opt.h>
+#include <libavutil/imgutils.h>
+#ifdef __cplusplus
+};
+#endif
+#endif
 
 
 int main(int argc, char* argv[])

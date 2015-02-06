@@ -87,18 +87,18 @@ int main(int argc, char* argv[])
 	//Init Method 1
 	img_convert_ctx =sws_alloc_context();
 	//Show AVOption
-	av_opt_show2(img_convert_ctx,stdout,AV_OPT_FLAG_VIDEO_PARAM,NULL);
+	av_opt_show2(img_convert_ctx,stdout,AV_OPT_FLAG_VIDEO_PARAM,0);
 	//Set Value
-	av_opt_set_int(img_convert_ctx,"sws_flags",SWS_BICUBIC|SWS_PRINT_INFO,NULL);
-	av_opt_set_int(img_convert_ctx,"srcw",src_w,NULL);
-	av_opt_set_int(img_convert_ctx,"srch",src_h,NULL);
-	av_opt_set_int(img_convert_ctx,"src_format",src_pixfmt,NULL);
+	av_opt_set_int(img_convert_ctx,"sws_flags",SWS_BICUBIC|SWS_PRINT_INFO,0);
+	av_opt_set_int(img_convert_ctx,"srcw",src_w,0);
+	av_opt_set_int(img_convert_ctx,"srch",src_h,0);
+	av_opt_set_int(img_convert_ctx,"src_format",src_pixfmt,0);
 	//'0' for MPEG (Y:0-235);'1' for JPEG (Y:0-255)
-	av_opt_set_int(img_convert_ctx,"src_range",1,NULL);
-	av_opt_set_int(img_convert_ctx,"dstw",dst_w,NULL);
-	av_opt_set_int(img_convert_ctx,"dsth",dst_h,NULL);
-	av_opt_set_int(img_convert_ctx,"dst_format",dst_pixfmt,NULL);
-	av_opt_set_int(img_convert_ctx,"dst_range",1,NULL);
+	av_opt_set_int(img_convert_ctx,"src_range",1,0);
+	av_opt_set_int(img_convert_ctx,"dstw",dst_w,0);
+	av_opt_set_int(img_convert_ctx,"dsth",dst_h,0);
+	av_opt_set_int(img_convert_ctx,"dst_format",dst_pixfmt,0);
+	av_opt_set_int(img_convert_ctx,"dst_range",1,0);
 	sws_init_context(img_convert_ctx,NULL,NULL);
 
 	//Init Method 2

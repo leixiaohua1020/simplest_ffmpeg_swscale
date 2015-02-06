@@ -28,7 +28,7 @@
  */
 
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 
 /**
@@ -167,6 +167,7 @@ int gen_yuv420p_graybar(int width, int height,int barnum,unsigned char ymin,unsi
 	free(data_u);
 	free(data_v);
 	printf("Finish generate %s!\n",filename);
+    return 0;
 }
 
 /**
@@ -292,6 +293,7 @@ int gen_rgb24_colorbar(int width, int height){
 	fclose(fp);
 	free(data);
 	printf("Finish generate %s!\n",filename);
+    return 0;
 }
 
 /**

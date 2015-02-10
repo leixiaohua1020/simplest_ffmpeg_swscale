@@ -480,7 +480,7 @@ int gen_yuv420p_yuvgradient_bar(int width, int height,int barnum,
  * @param height		the height of picture.
  * @return 0 if finished, -1 if there are errors.
  */
-int rgb24_to_bmp(char *rgb24path,char *bmppath,int width,int height)
+int rgb24_to_bmp(const char *rgb24path,const char *bmppath,int width,int height)
 {
 	typedef struct 
 	{  

@@ -1,7 +1,0 @@
-Debug/
-Release/
-
-*.exe
-*.obj
-
-sintel_1280x720_rgb24.rgb

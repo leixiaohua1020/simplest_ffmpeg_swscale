@@ -1,8 +1,0 @@
-Debug/
-Release/
-
-*.yuv
-*.rgb
-
-*.exe
-*.obj

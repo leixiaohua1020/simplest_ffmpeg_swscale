@@ -3,8 +3,5 @@ Release/
 
 *.exe
 *.obj
-*.out
-*.exe.manifest
-*.out.dSYM/
 
 sintel_1280x720_rgb24.rgb

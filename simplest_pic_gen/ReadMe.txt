@@ -7,6 +7,7 @@ leixiaohua1020@126.com
 Communication University of China / Digital TV Technology
 http://blog.csdn.net/leixiaohua1020
 
+
 本程序可以生成多种RGB/YUV格式的测试图像。包括：
 灰阶图        [YUV420P]
 彩条图        [RGB24]
@@ -14,6 +15,7 @@ http://blog.csdn.net/leixiaohua1020
 RGB渐变彩条图 [RGB24]
 YUV渐变彩条图 [YUV420P]
 颜色视频      [RGB24][YUV444P]
+
 
 This software can generate several test pictures:
 Gray Bar Picture         [YUV420P]

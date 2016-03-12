@@ -7,8 +7,10 @@ leixiaohua1020@126.com
 Communication University of China / Digital TV Technology
 http://blog.csdn.net/leixiaohua1020
 
+
 本程序使用libswscale对像素数据进行缩放转换等处理。
 是最简单的libswscale的教程。
+
 
 This software uses libswscale to scale / convert pixels.
 It the simplest tutorial about libswscale.
